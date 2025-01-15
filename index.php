@@ -8,8 +8,8 @@
     <title>Meu portifolio</title>
 </head>
 
-<body class="bg-[url('/images/img1.png')] h-screen w-full bg-cover bg-center">
-    <section class="flex flex-col items-center justify-center h-full text-center gap-y-3">
+<body>
+    <section class="bg-[url('/images/img1.png')] bg-cover h-screen flex flex-col items-center justify-center h-full w-full text-center gap-y-3">
         <img src="/images/perfil.jpg" alt="" class="object-contain object-cover rounded-full h-24 w-24 border-2 border-rose-500 mb-10">
         <h2 class="text-gray-400">Hello World! Meu nome é <span class="text-red-400">Goldie</span> e sou</h2>
         <h1 class="text-white text-5xl font-bold">Desenvolvedor PHP</h1>
@@ -27,7 +27,7 @@
     </section>
 
 
-    <section class="flex flex-col items-center">
+    <section class="bg-zinc-900 bg-cover h-screen w-full flex flex-col items-center">
         <div class="flex flex-col items-center mb-10">
             <span class="text-red-400">Meu trabalho</span>
             <span class="text-white text-2xl">Veja os projetos em destaque</span>
@@ -114,7 +114,7 @@
         </div>
     </section>
 
-    <footer class="flex flex-col items-center mt-16" >
+    <footer class="bg-[url('/images/img2.png')] bg-cover h-screen w-full flex flex-col items-center justify-center" >
         <div>
             <h3 class="text-purple-400 text-center">Contato</h3>
             <h2 class="text-white text-2xl text-center" >Gostou do meu trabalho?</h2>
@@ -131,21 +131,21 @@
             <div class="flex bg-gray-800 w-96 h-12 items-center justify-between rounded-xl">
                 <div class="flex ml-4">
                     <img src="/images/instagram-logo.png" alt="" class="h-7 w-7">
-                    <span class="text-gray-400 ml-2" >LinkedIn</span>
+                    <span class="text-gray-400 ml-2" >Instagram</span>
                 </div>
                 <img src="/images/arrow-up-right.png" alt="" class="text-gray-400 h-7 w-7 mr-4">
             </div>
             <div class="flex bg-gray-800 w-96 h-12 items-center justify-between rounded-xl">
                 <div class="flex ml-4">
                     <img src="/images/github-logo.png" alt="" class="h-7 w-7">
-                    <span class="text-gray-400 ml-2" >LinkedIn</span>
+                    <span class="text-gray-400 ml-2" >Github</span>
                 </div>
                 <img src="/images/arrow-up-right.png" alt="" class="text-gray-400 h-7 w-7 mr-4">
             </div>
             <div class="flex bg-gray-800 w-96 h-12 items-center justify-between rounded-xl">
                 <div class="flex ml-4">
                     <img src="/images/envelope-simple.png" alt="" class="h-7 w-7">
-                    <span class="text-gray-400 ml-2" >LinkedIn</span>
+                    <span class="text-gray-400 ml-2" >E-mail</span>
                 </div>
                 <img src="/images/arrow-up-right.png" alt="" class="text-gray-400 h-7 w-7 mr-4">
             </div>
